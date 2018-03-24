@@ -1,0 +1,8 @@
+*.pyc
+saved_model/
+*.h5
+*.json
+data/tf_record/train/
+data/tf_record/val/
+data/tf_record/test/
+.ipynb*
