@@ -1,16 +1,24 @@
 ## Usage
 
-#### Prerequisites
+### Prerequisites
 
-Make sure you are on a machine with a NVIDIA GPU and Python 2 with about 70 GB disk space.
+Make sure you are on a machine with a NVIDIA GPU and Python 2 with about 100 GB disk space.
 
-1. Install [Tensorflow](http://pytorch.org/) with CUDA and Python 2.7.
+1. Install [Tensorflow](https://www.tensorflow.org/) with CUDA and Python 2.7.
 
-#### Data Setup
+### Data Setup
+TBD
 
-All data should be downloaded to a data/ directory in the root directory of this repository.
+### Reference
+If you use the VizWiz dataset as part of any published research, please acknowledge the following paper
+```
+@article{gurari2018vizwiz,
+  title={VizWiz Grand Challenge: Answering Visual Questions from Blind People},
+  author={Gurari, Danna and Li, Qing and Stangl, Abigale J and Guo, Anhong and Lin, Chi and Grauman, Kristen and Luo, Jiebo and Bigham, Jeffrey P},
+  journal={CVPR},
+  year={2018}
+}
+```
+### License
 
-#### Training
-
-Simply run `python main.py` to start training. The training and validation scores will be printed
-every epoch, and the best model will be saved under the directory "saved_models". The default flags should give you the result provided in the table above.
+MIT License.
